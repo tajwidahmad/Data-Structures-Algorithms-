@@ -1,5 +1,8 @@
 public class intro_to_arrays{
     public static void main(String[] args){
-        System.out.println("hello world");
+        // int arr[]={1,2,3,4,5};
+        int arr[]=new int[9];
+       
+
     }
 }
