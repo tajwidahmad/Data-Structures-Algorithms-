@@ -2,7 +2,7 @@ package recursion;
 
 public class Sorted_check {
     public static void main(String[] args) {
-        int arr[]={1,2,6,4,5};
+        int arr[]={1,2,3,4,5};
         System.out.println(is_sorted(arr, 0));
 
         
