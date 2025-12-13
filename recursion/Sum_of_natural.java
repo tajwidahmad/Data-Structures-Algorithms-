@@ -1,7 +1,10 @@
+package recursion;
+
 public class Sum_of_natural {
+    
     public static int sum(int n) {
-        if(n==0){
-            return 0;
+        if(n==1){
+            return 1;
 
         }
         int sum=0;
@@ -14,3 +17,5 @@ public class Sum_of_natural {
         System.out.println(sum(5));        
     }
 }
+
+
