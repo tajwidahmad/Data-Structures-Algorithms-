@@ -30,12 +30,15 @@ public class Mergesort {
                 temp[k]=arr[i];
                 i++;
                 k++;
+                
             }
             else{
                 temp[k]=arr[j];
                 j++;
                 k++;
+           
             }
+            
 
         }
     
@@ -56,7 +59,9 @@ public class Mergesort {
             arr[i]=temp[k];
 
         }
+        
     }
+    
     public static void printarr(int arr[]) {
         for(int i=0;i<arr.length;i++){
             System.out.print(arr[i]+" ");
